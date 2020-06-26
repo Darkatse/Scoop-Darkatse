@@ -1,4 +1,4 @@
-# Scoop-Darkatse [![Build status](https://img.shields.io/appveyor/ci/Darkatse/Scoop-Darkatse/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Darkatse/Scoop-Darkatse/branch/master)
+# Scoop-Darkatse [![Build status](https://img.shields.io/appveyor/ci/Darkatse/Scoop-Darkatse/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Darkatse/Scoop-Darkatse/branch/master)[![Excavator](https://github.com/Darkatse/Scoop-Darkatse/workflows/Excavator/badge.svg)](https://github.com/Darkatse/Scoop-Darkatse/actions)
 
 
 This scoop bucket is a collection of apps that I personally use.  

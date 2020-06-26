@@ -1,4 +1,4 @@
-# Scoop-Darkatse [![Build status](https://img.shields.io/appveyor/ci/Darkatse/Scoop-Darkatse/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Darkatse/Scoop-Darkatse/branch/master)
+# Scoop-Darkatse [![Build status](https://img.shields.io/appveyor/ci/Darkatse/Scoop-Darkatse/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Darkatse/Scoop-Darkatse/branch/master)[![Excavator](https://github.com/Darkatse/Scoop-Darkatse/workflows/Excavator/badge.svg)](https://github.com/Darkatse/Scoop-Darkatse/actions)
 
 本 scoop 源收集了一些我个人平时使用的程序。  
 [*Scoop简介 —— Windows 上体验最好的「包管理器」*](https://sspai.com/post/52496)
