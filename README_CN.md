@@ -3,7 +3,7 @@
 本 scoop 源收集了一些我个人平时使用的程序。  
 [*Scoop简介 —— Windows 上体验最好的「包管理器」*](https://sspai.com/post/52496)
 
-[English](https://github.com/Darkatse/Scoop-Darkatse/blob/master/README.md)|[简体中文](https://github.com/Darkatse/Scoop-Darkaste/blob/master/README_CN.md)  
+[English](https://github.com/Darkatse/Scoop-Darkatse/blob/master/README.md)|[简体中文](https://github.com/Darkatse/Scoop-Darkatse/blob/master/README_CN.md)  
 
 包含哪些软件？
 ------------
