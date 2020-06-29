@@ -2,7 +2,7 @@
 
 
 This scoop bucket is a collection of apps that I personally use.  
-Scoop is a command-line installer for Windows, like homebrew.  
+[Scoop](https://github.com/lukesampson/scoop) is a command-line installer for Windows, like homebrew.  
 With scoop, you can install, update and uninstall these software from the command line with ease.
 
 [English](https://github.com/Darkatse/Scoop-Darkatse/blob/master/README.md)|[简体中文](https://github.com/Darkatse/Scoop-Darkaste/blob/master/README_CN.md)  
