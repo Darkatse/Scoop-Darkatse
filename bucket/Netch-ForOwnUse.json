@@ -1,0 +1,40 @@
+{
+    "version": "1.5.5",
+    "description": "Game accelerator Kai",
+    "homepage": "https://github.com/AmazingDM/Netch-ForOwnUse",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AmazingDM/Netch-ForOwnUse/releases/download/Pre-44/Netch.zip",
+            "hash": "1e5d2d4cd74aad6d88eb01f1482d32826295a7bd409cdc222124a5db64a9153c"
+        }
+    },
+    "pre_install": [
+        "ensure \"$dir\\data\" | Out-Null",
+        "if (!(Test-Path \"$persist_dir\\data\\settings.json\")) { Set-Content \"$dir\\data\\settings.json\" '{ \"CheckUpdateWhenOpened\": false }' -Encoding Ascii -Force }"
+    ],
+    "bin": "Netch.exe",
+    "shortcuts": [
+        [
+            "Netch.exe",
+            "Netch"
+        ]
+    ],
+    "persist": [
+        "data",
+        "logging",
+        "mode"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AmazingDM/Netch-ForOwnUse/releases/download/$version/Netch.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/AmazingDM/Netch-ForOwnUse/releases/tag/$version",
+            "regex": "(?sm)$basename</td.*?$sha256"
+        }
+    }
+}
