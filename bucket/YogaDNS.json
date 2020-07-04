@@ -1,0 +1,26 @@
+{
+    "version": "1.14",
+    "homepage": "https://yogadns.com/",
+    "description": "A cross-platform SSH client",
+    "url": "https://yogadns.com/download/YogaDNSSetup.exe#/dl.7z",
+    "hash": "md5:080e91f01395d96831d14e315b5f5d9c",
+
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "YogaDNS.exe",
+            "YogaDNS"
+        ]
+    ],
+    "post_install" : [
+        "Rename-Item \"$dir\\Driver\\DnsFltEngineDrv,2.sys\" -NewName \"$dir\\Driver\\DnsFltEngineDrv.sys\"",
+        "CMD /C \"RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection DefaultInstall 132 $dir\\Driver\\DnsFltEngineDrv,2.inf\""
+    ],
+    "checkver": {
+        "url": "https://yogadns.com/download/",
+        "regex": "Version ([\\d\\.]+)"
+    },
+    "autoupdate": {
+                "url": "https://yogadns.com/download/YogaDNSSetup.exe#/dl.7z"
+    }
+}
