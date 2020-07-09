@@ -1,0 +1,35 @@
+{
+    "homepage": "https://github.com/BROBIRD/clash/tree/clashr-dev",
+    "description": "A Windows GUI based on Clash, use kernel of ShadowsocksR",
+    "version": "0.10.4",
+    "license": "MIT",
+    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.10.4/Clash.for.Windows.Setup.0.10.4.exe#/dl.7z",
+    "hash": "2f5f1258087a9904091830a0abccd03aa0705238278ce8f2049266c6628fd2d2",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse",
+            "(New-Object System.Net.WebClient).DownloadFile(\"https://github.com/BROBIRD/clash/releases/download/v1.0.0-R/clash-windows-amd64-v1.0.0-R.zip\",\"$dir\\R.zip\")",
+            "Remove-Item \"$dir\\resources\\static\\files\\clash-win64.exe\" -Force -Recurse",
+            "Expand-7zipArchive \"$dir\\R.zip\" \"$dir\\resources\\static\\files\"",
+            "Rename-Item \"$dir\\resources\\static\\files\\clash-windows-amd64.exe\" -NewName \"$dir\\resources\\static\\files\\clash-win64.exe\""
+        ]
+    },
+    "shortcuts": [
+        [
+            "Clash for Windows.exe",
+            "Clash for Windows"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Fndroid/clash_for_windows_pkg"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows.Setup.$version.exe#/dl.7z",
+        "hash": {
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/sha256sum",
+            "mode": "extract",
+            "regex": "exe: $sha256"
+        }
+    }
+}
