@@ -7,7 +7,7 @@
     "hash": "md5:80720823C83040F6EBE049CB644FBA70",
      "installer": {
         "script": [
-            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\" \"$dir\"",
+            "Move-Item -Path \"$dir\\$PLUGINSDIR\\*\" -Destination \"$dir\"",
             "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
         ]
     },
