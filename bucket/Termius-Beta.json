@@ -1,0 +1,38 @@
+{
+    "version": "6.2.2",
+    "homepage": "https://termius.com/",
+    "description": "Beta version for Termius",
+    "url": "https://www.termius.com/beta/download/windows/Termius+Beta.exe#/dl.7z",
+    "hash": "md5:FD128F730A8C142E9223041347BE1B5F",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
+                ]
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
+                ]
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "Termius Beta.exe",
+            "Termius Beta"
+        ]
+    ],
+    "checkver": {
+        "url": "https://termius.com/beta-program",
+        "regex": "V ([\\d\\.]+)"
+    },
+    "autoupdate": {
+                "url": "https://www.termius.com/beta/download/windows/Termius+Beta.exe#/dl.7z"
+    }
+}
