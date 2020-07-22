@@ -4,7 +4,6 @@
     "description": "A cross-platform SSH client",
     "url": "https://yogadns.com/download/YogaDNSSetup.exe#/dl.7z",
     "hash": "md5:080e91f01395d96831d14e315b5f5d9c",
-
     "innosetup": true,
     "shortcuts": [
         [
