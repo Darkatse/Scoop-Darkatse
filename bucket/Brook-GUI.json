@@ -5,7 +5,6 @@
     "license": "GPL-3.0 License",
     "url": "https://github.com/txthinking/brook/releases/download/v20200701/Brook.exe",
     "hash": "md5:71F739CBDCF63731CE510E2ECFD9C2DD",
-    "innosetup": true,
     "bin": "Brook.exe",
     "shortcuts": [
         [
