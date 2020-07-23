@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/BROBIRD/clash/tree/clashr-dev",
     "description": "A Windows GUI based on Clash, use kernel of ShadowsocksR",
-    "version": "0.11.1-nightly",
+    "version": "0.11.1",
     "license": "MIT",
     "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.11.1/Clash.for.Windows.Setup.0.11.1.exe#/dl.7z",
     "hash": "95809cd3655acdc1a4513661c7ca3516be762b61d1f297573fad1a73c76d1fda",
