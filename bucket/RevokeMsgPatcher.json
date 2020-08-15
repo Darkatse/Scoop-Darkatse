@@ -3,7 +3,7 @@
     "description": "Revoke Message Patcher for QQ/TIM/WeChat",
     "homepage": "https://github.com/huiyadanli/RevokeMsgPatcher",
     "license": " GPL-3.0 License",
-    "url": "https://github.com/AmazingDM/Netch-ForOwnUse/releases/download/1.5.6/Netch.zip",
+    "url": "https://github.com/huiyadanli/RevokeMsgPatcher/releases/download/0.9/RevokeMsgPatcher.v0.9.zip",
     "hash": "md5:7D0F0B274513F3D72031AB198A69BB75",
     "bin": "RevokeMsgPatcher.v$version\\RevokeMsgPatcher.exe",
     "shortcuts": [
@@ -18,6 +18,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/AmazingDM/Netch-ForOwnUse/releases/download/$version/Netch.zip"
+        "url": "https://github.com/huiyadanli/RevokeMsgPatcher/releases/download/$version/RevokeMsgPatcher.v$version.zip"
     }
 }
