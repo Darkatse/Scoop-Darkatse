@@ -5,14 +5,17 @@
     "license": " GPL-3.0 License",
     "url": "https://github.com/huiyadanli/RevokeMsgPatcher/releases/download/0.9/RevokeMsgPatcher.v0.9.zip",
     "hash": "md5:7D0F0B274513F3D72031AB198A69BB75",
-    "bin": "RevokeMsgPatcher.v0.9\\RevokeMsgPatcher.exe",
+    "pre_install": [
+        "Rename-Item \"$dir\\RevokeMsgPatcher.v$version\" \"RevokeMsgPatcher\""
+    ],
+    "bin": "RevokeMsgPatcher\\RevokeMsgPatcher.exe",
     "shortcuts": [
         [
-            "RevokeMsgPatcher.exe",
+            "RevokeMsgPatcher\\RevokeMsgPatcher.exe",
             "RevokeMsgPatcher"
         ],
         [
-            "RevokeMsgPatcher.MultiInstance.exe",
+            "RevokeMsgPatcher\\RevokeMsgPatcher.MultiInstance.exe",
             "WecChat MultiInstance"
         ]
     ],
