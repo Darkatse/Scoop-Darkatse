@@ -1,10 +1,10 @@
 {
-    "version": "20200801",
+    "version": "20200901",
     "homepage": "https://github.com/txthinking/brook/",
     "description": "cross-platform strong encryption and not detectable proxy",
     "license": "GPL-3.0 License",
-    "url": "https://github.com/txthinking/brook/releases/download/v20200801/Brook.exe",
-    "hash": "735df59afeaeedcafa3926d7038d38fa5df74d724c80dae4361c9ddb83fd497b",
+    "url": "https://github.com/txthinking/brook/releases/download/v20200901/Brook.exe",
+    "hash": "6680b4df0642f32c90fce52bf27ba599ff9494dba5e5d1675e12bacfdbfaee2a",
     "bin": "Brook.exe",
     "shortcuts": [
         [
