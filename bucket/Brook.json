@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/txthinking/brook/releases/download/v20200901/brook_windows_amd64.exe",
-            "hash": "93f20a02788cbca2ef8f778b18333607ad1d64669b530358745d083ea2530f6d",
+            "hash": "ebcb388fcc8e523ae1f19f6f52c912e7a8ee2d380161022f5a9ac175fa768848",
             "installer": {
                 "script": "Rename-Item \"$dir\\brook_windows_amd64.exe\" -NewName \"$dir\\brook.exe\""
             }
