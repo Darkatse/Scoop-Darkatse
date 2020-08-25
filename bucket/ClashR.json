@@ -9,7 +9,7 @@
         "script": [
             "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
             "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse",
-            "(New-Object System.Net.WebClient).DownloadFile(\"https://tmpclashpremiumbindary.cf/clash-windows-amd64-2020.08.13.g827ef84.zip\",\"$dir\\R.zip\")",
+            "(New-Object System.Net.WebClient).DownloadFile(\"https://tmpclashpremiumbindary.cf/clash-windows-amd64-2020.08.21.g0e83591.zip\",\"$dir\\R.zip\")",
             "Remove-Item \"$dir\\resources\\static\\files\\clash-win64.exe\" -Force -Recurse",
             "Expand-7zipArchive \"$dir\\R.zip\" \"$dir\\resources\\static\\files\"",
             "Rename-Item \"$dir\\resources\\static\\files\\clash-windows-amd64.exe\" -NewName \"$dir\\resources\\static\\files\\clash-win64.exe\""
