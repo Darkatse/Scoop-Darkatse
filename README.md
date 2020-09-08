@@ -12,7 +12,12 @@ Feature Apps
 
 | Manifest | Description |
 |----------|-------------|
-| memtest | a RAM tester that runs under Windows |
+| Auto Dark Mode | Automatically switches dark/light theme of Win10 |
+| Netch | Game accelerator |
+| memtest | A RAM tester that runs under Windows |
+| RevokeMsgPatcher | Revoke Message Patcher for QQ/TIM/WeChat |
+| Termius | A cross-platform SSH client |
+| YogaDNS | Advanced DNS Client for Windows |
 
 
 

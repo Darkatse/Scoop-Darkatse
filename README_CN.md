@@ -10,7 +10,13 @@
 
 | 名称 | 描述 |
 |----------|-------------|
+| Auto Dark Mode | 让win10自动切换夜间主题 |
+| Netch | 通用游戏加速器 |
 | memtest | win下的内存测试工具 |
+| RevokeMsgPatcher | QQ/TIM/WeChat 防撤回补丁 |
+| Termius | 跨平台同步的SSH客户端 |
+| YogaDNS | 强大的Windows DNS客户端 |
+
 
 
 如何使用scoop
