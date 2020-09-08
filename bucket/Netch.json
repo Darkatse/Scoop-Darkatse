@@ -25,7 +25,9 @@
         "logging",
         "mode"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/NetchX/Netch/"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {

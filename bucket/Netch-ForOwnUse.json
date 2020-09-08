@@ -25,7 +25,9 @@
         "logging",
         "mode"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/AmazingDM/Netch-ForOwnUse/"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {

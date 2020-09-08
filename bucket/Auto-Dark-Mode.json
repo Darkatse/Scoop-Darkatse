@@ -18,7 +18,9 @@
             "AutoDarkMode"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/Armin2208/Windows-Auto-Night-Mode/"
+    },
     "autoupdate": {
         "url": "https://github.com/Armin2208/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkMode_v$majorVersion_Setup.zip"
     }
