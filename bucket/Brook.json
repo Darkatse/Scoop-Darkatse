@@ -1,19 +1,19 @@
 {
-    "version": "20200909",
+    "version": "20210101",
     "homepage": "https://github.com/txthinking/brook/",
     "description": "cross-platform strong encryption and not detectable proxy",
     "license": "GPL-3.0 License",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/txthinking/brook/releases/download/v20200909/brook_windows_amd64.exe",
-            "hash": "f62f0d78306fdbe8388a8b29ee4051a2479f55aeced4bfef13a2c584dae4dead",
+            "url": "https://github.com/txthinking/brook/releases/download/v20210101/brook_windows_amd64.exe",
+            "hash": "1dbc7c22d4b4fa4eb152218c3b807b0fbe0921dc4cc3e182c3acc381e49db4ee",
             "installer": {
                 "script": "Rename-Item \"$dir\\brook_windows_amd64.exe\" -NewName \"$dir\\brook.exe\""
             }
         },
         "32bit": {
-            "url": "https://github.com/txthinking/brook/releases/download/v20200909/brook_windows_386.exe",
-            "hash": "2da94d53696155cb0fc85be3a858963d53d3430dd92bf137035aa4157243738e",
+            "url": "https://github.com/txthinking/brook/releases/download/v20210101/brook_windows_386.exe",
+            "hash": "9b794e19358c26cf845f8bd096bac73683939e72b85631977c271ecfab47daa1",
             "installer": {
                 "script": "Rename-Item \"$dir\\brook_windows_386.exe\" -NewName \"$dir\\brook.exe\""
             }
