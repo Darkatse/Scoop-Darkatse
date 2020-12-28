@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/rmbadmin/SteamTools",
     "description": "Toolbox for steam",
-    "version": "1.0.3.3",
+    "version": "1.0.4",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/rmbadmin/SteamTools/releases/download/1.0.3.3/Steam++.v1.0.3.3.zip",
-    "hash": "e05d5094297530441473653a4bd5d7cbb0bda16f2a507ef5f44cdf936d787ca8",
+    "url": "https://github.com/rmbadmin/SteamTools/releases/download/1.0.4/Steam++.v1.0.4.zip",
+    "hash": "18b7694c07f04d5801a55c1c905ada1086e5561e22d01886130550065235f36c",
     "bin": "Steam++.exe",
     "shortcuts": [
         [
