@@ -1,12 +1,12 @@
 {
-    "version": "1.6.0",
+    "version": "2.0",
     "description": "Game accelerator Kai",
     "homepage": "https://github.com/AmazingDM/Netch-ForOwnUse",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AmazingDM/Netch-ForOwnUse/releases/download/1.6.0/Netch.7z",
-            "hash": "f9e70c4b1bd273ac6b08a0710e61a744234e34ce5ae7108795d921e8eb3368c2"
+            "url": "https://github.com/AmazingDM/Netch-ForOwnUse/releases/download/2.0/Netch.7z",
+            "hash": "16b5396031400dcf62ee84fd67b4c2ea60c8e07cb5f00cab2ea97d47b32a39b3"
         }
     },
     "pre_install": [
