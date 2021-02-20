@@ -1,12 +1,12 @@
 {
-    "version": "1.7.5",
+    "version": "1.7.6",
     "description": "Game accelerator",
     "homepage": "https://github.com/NetchX/Netch",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NetchX/Netch/releases/download/1.7.5/Netch.7z",
-            "hash": "ebc09a50340905b098873aca007a8f8856d87d9f5bde1fdc5a1a38ca44882c67"
+            "url": "https://github.com/NetchX/Netch/releases/download/1.7.6/Netch.7z",
+            "hash": "040e0bf4efdd059709c6e95984ea8fae2558bef4eba61b452142e78855870da0"
         }
     },
     "pre_install": [
