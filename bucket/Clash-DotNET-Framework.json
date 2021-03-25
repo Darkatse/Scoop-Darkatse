@@ -5,6 +5,10 @@
     "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v0.0.8/CDF-v0.0.8.7z",
     "hash": "md5:8CB5BF434DCD2DBDE6B83E08AB2BD55D",
     "bin": "ClashDotNetFramework.exe",
+    "pre_install": [
+        "Move-Item -Path \"$dir\\Clash .NET Framework\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\Clash .NET Framework\" -Force -Recurse"
+    ],
     "shortcuts": [
         [
             "ClashDotNetFramework.exe",

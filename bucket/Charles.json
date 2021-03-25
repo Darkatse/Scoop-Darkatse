@@ -5,6 +5,10 @@
     "license": "Freeware",
     "url": "https://www.charlesproxy.com/assets/release/4.6.1/charles-proxy-4.6.1-win64.msi",
     "hash": "md5:A6B395DBE57830CE1842A28C7D70CF13",
+    "pre_install": [
+        "Move-Item -Path \"$dir\\PFiles\\Charles\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\PFiles\" -Force -Recurse"
+    ],
     "shortcuts": [
         [
             "Charles.exe",
