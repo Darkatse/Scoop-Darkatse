@@ -1,0 +1,21 @@
+{
+    "version": "4.6.1",
+    "homepage": "https://www.charlesproxy.com/",
+    "description": "Web Debugging Proxy Application",
+    "license": "Freeware",
+    "url": "https://www.charlesproxy.com/assets/release/4.6.1/charles-proxy-4.6.1-win64.msi",
+    "hash": "md5:A6B395DBE57830CE1842A28C7D70CF13",
+    "shortcuts": [
+        [
+            "Charles.exe",
+            "Charles"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.charlesproxy.com/download/",
+        "regex": "v([\\d\\.]+)"
+    },
+    "autoupdate": {
+                "url": "https://www.charlesproxy.com/assets/release/$version/charles-proxy-$version-win64.msi"
+    }
+}
