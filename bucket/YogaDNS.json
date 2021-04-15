@@ -1,9 +1,9 @@
 {
-    "version": "1.16",
+    "version": "1.19",
     "homepage": "https://yogadns.com/",
     "description": "Advanced DNS Client for Windows",
     "url": "https://yogadns.com/download/YogaDNSSetup.exe#/dl.7z",
-    "hash": "6626aa41c3a9358989a81c00f2397f1c774fdede524c25271794eb728db7db1a",
+    "hash": "b8060ee7aba4a6942af9f2be4bb68c9f5e28db2165649fadd4e5c4289c719eb3",
     "innosetup": true,
     "shortcuts": [
         [
