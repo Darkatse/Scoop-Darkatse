@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/BROBIRD/clash/tree/clashr-dev",
     "description": "A Windows GUI based on Clash, use kernel of ShadowsocksR",
-    "version": "0.15.2",
+    "version": "0.15.3",
     "license": "MIT",
-    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.2/Clash.for.Windows.Setup.0.15.2.exe#/dl.7z",
-    "hash": "89df2fd354f79cd42596e716212d3c1d6246c6cc0cc0ede2d27041198be4e241",
+    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.3/Clash.for.Windows.Setup.0.15.3.exe#/dl.7z",
+    "hash": "cbd4f69b504f26d65588b04271b4a54674e46c71466cfc534e9206f201aeb988",
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
