@@ -6,8 +6,8 @@
     "hash": "97937c4e94826b248b8787dc141963ea6dc3cdc8daddc46eca7c75a06ef073f5",
     "bin": "ClashDotNet.exe",
     "pre_install": [
-        "Move-Item -Path \"$dir\\Clash .NET\\*\" -Destination \"$dir\"",
-        "Remove-Item \"$dir\\Clash .NET\" -Force -Recurse"
+        "Move-Item -Path \"$dir\\Clash .NET*\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\Clash .NET*\" -Force -Recurse"
     ],
     "shortcuts": [
         [
