@@ -1,24 +1,24 @@
 {
     "homepage": "https://github.com/ClashDotNetFramework/ClashDotNetFramework",
     "description": "A Clash GUI Proxy For Windows Based On .NET Framework",
-    "version": "0.0.8",
-    "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v0.0.8/CDF-v0.0.8.7z",
+    "version": "1.0.0",
+    "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Clash.NET.1.0.0-x64.7z",
     "hash": "md5:8CB5BF434DCD2DBDE6B83E08AB2BD55D",
-    "bin": "ClashDotNetFramework.exe",
+    "bin": "ClashDotNet.exe",
     "pre_install": [
-        "Move-Item -Path \"$dir\\Clash .NET Framework\\*\" -Destination \"$dir\"",
-        "Remove-Item \"$dir\\Clash .NET Framework\" -Force -Recurse"
+        "Move-Item -Path \"$dir\\Clash .NET\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\Clash .NET\" -Force -Recurse"
     ],
     "shortcuts": [
         [
-            "ClashDotNetFramework.exe",
-            "Clash .Net Framework"
+            "ClashDotNet.exe",
+            "Clash .Net"
         ]
     ],
     "checkver": {
         "github": "https://github.com/ClashDotNetFramework/ClashDotNetFramework"
     },
     "autoupdate": {
-        "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/CDF-v$version.7z"
+        "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version-x64.7z"
     }
 }
