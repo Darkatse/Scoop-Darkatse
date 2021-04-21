@@ -1,10 +1,10 @@
 {
     "description": "ShanaEncoder is audio/video encoding program based on FFmpeg. 中文版由sakura_小樱（@1265578519）翻译",
     "homepage": "https://bbs.itzmx.com/thread-7413-1-1.html",
-    "version": "5.2.0.2",
+    "version": "5.2.0.5",
     "license": "Freeware",
-    "url": "https://github.itzmx.com/1265578519/ShanaEncoder/master/5.2.0.2/ShanaEncoder%20V5.2.0.2%20%E5%AE%8C%E6%95%B4%E7%89%88%E7%BB%BF%E8%89%B2%E5%8E%8B%E7%BC%A9%E5%8C%85.7z",
-    "hash": "6717999f5014ef6d94156a660ac39a0d591a4c741c4ceacce41767e59ee62408",
+    "url": "https://github.itzmx.com/1265578519/ShanaEncoder/master/5.2.0.5/ShanaEncoder%20V5.2.0.5r3%20%E5%AE%8C%E6%95%B4%E7%89%88%E7%BB%BF%E8%89%B2%E5%8E%8B%E7%BC%A9%E5%8C%85.7z",
+    "hash": "40037eed18cb71b3a2972eca3be03f9b888a72ab55a8bde680783066f98d8b3b",
     "extract_dir": "ShanaEncoder",
     "shortcuts": [
         [
