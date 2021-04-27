@@ -1,10 +1,10 @@
 {
-    "version": "5.2.1",
+    "version": "5.2.1.1",
     "homepage": "https://shana.pe.kr/",
     "description": "ShanaEncoder is audio/video encoding program based on FFmpeg.",
     "license": "Freeware",
-    "url": "https://downloads.sourceforge.net/project/shanaencoder/ShanaEncoder5.2.1.exe#/dl.7z",
-    "hash": "sha1:ffe46c48aebccde64208f8e3b0658c39ede3e32f",
+    "url": "https://downloads.sourceforge.net/project/shanaencoder/ShanaEncoder5.2.1.1.exe#/dl.7z",
+    "hash": "sha1:d238062671b0c4f9fac5e400eb2ad25f5fbcdddb",
     "script": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\*\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
