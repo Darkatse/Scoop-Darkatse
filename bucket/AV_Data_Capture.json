@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/yoshiko2/AV_Data_Capture",
     "description": "Japanese Movie Metadata Crawler | Scraper",
-    "version": "4.6.2",
+    "version": "4.6.3",
     "license": "GNU General Public License v3.0",
-    "url": "https://github.com/yoshiko2/AV_Data_Capture/releases/download/4.6.2/AV_Data_Capture-CLI-4.6.2-Windows-amd64.zip",
-    "hash": "8d72ce3b95aec7e33e724737833cf57abb7a7050b390606ab3e8fcbc46b440d2",
+    "url": "https://github.com/yoshiko2/AV_Data_Capture/releases/download/4.6.3/AV_Data_Capture-CLI-4.6.3-Windows-amd64.zip",
+    "hash": "da2aaee4a2860898335cc46597efb677278228cb1518f4d76ee323e9bfa9e658",
     "bin": "AV_Data_Capture.exe",
     "shortcuts": [
         [
