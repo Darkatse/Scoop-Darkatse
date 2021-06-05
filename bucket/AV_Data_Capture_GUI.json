@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/moyy996/AVDC",
     "description": "GUI version for Japanese Movie Metadata Crawler | Scraper",
-    "version": "3.963",
+    "version": "3.964",
     "license": "GNU General Public License v3.0",
-    "url": "https://github.com/moyy996/AVDC/releases/download/3.963/AVDC-3.963.zip",
-    "hash": "md5:8785556ED2F40DDA71A620596BE38727",
+    "url": "https://github.com/moyy996/AVDC/releases/download/3.964/AVDC-3.964.zip",
+    "hash": "b986832c23cb49fd3627548a78cc4691df95ff342b6f578c1d2174bc09406efd",
     "bin": "AVDC.exe",
     "shortcuts": [
         [
