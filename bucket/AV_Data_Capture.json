@@ -4,7 +4,7 @@
     "version": "4.6.6",
     "license": "GNU General Public License v3.0",
     "url": "https://github.com/yoshiko2/AV_Data_Capture/releases/download/4.6.6/AV_Data_Capture-CLI-4.6.6-Windows-amd64.zip",
-    "hash": "f2d83899fd840dd3b485a5f0a88c110b62a27b8fa07b2a552564302dc5db7fa5",
+    "hash": "957f4d74f3e988a6762cb9b8d24055e5abade9a29f2138350b8ddde711686d2f",
     "bin": "AV_Data_Capture.exe",
     "shortcuts": [
         [
