@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/ClashDotNetFramework/ClashDotNetFramework",
     "description": "A Clash GUI Proxy For Windows Based On .NET Framework",
-    "version": "1.1.2",
-    "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.1.2/Clash.NET.1.1.2.x64.7z",
-    "hash": "bafa05c0eff04f8eb7160c15e9bafcafdf84caceaa751b0fea5038c1e8625df5",
+    "version": "1.2.0",
+    "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.2.0/Clash.NET.1.2.0.x64.7z",
+    "hash": "1d8e1874bc69b064d374d638b99aff051a8444e910cfcdd3360a004f5c7413db",
     "bin": "ClashDotNet.exe",
     "pre_install": [
         "Move-Item -Path \"$dir\\Clash .NET*\\*\" -Destination \"$dir\"",
