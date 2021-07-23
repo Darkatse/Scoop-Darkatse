@@ -1,9 +1,9 @@
 {
-    "version": "7.17.0",
+    "version": "7.17.1",
     "homepage": "https://termius.com/",
     "description": "Beta version for Termius",
     "url": "https://www.termius.com/beta/download/windows/Termius+Beta.exe#/dl.7z",
-    "hash": "25294bb8e314afe36f53f8618d0d4a63dc16ac7b0c21a0610fd2e76648c7cc97",
+    "hash": "3b9bc9b215ce1a241847c0b0eeca9d5b373897c19197383de4dffc88397aea8c",
     "architecture": {
         "64bit": {
             "installer": {
