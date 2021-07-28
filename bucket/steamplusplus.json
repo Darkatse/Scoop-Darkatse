@@ -12,6 +12,11 @@
             "Steam++"
         ]
     ],
+    "persist": [
+        "AppData",
+        "Cache",
+        "Logs"
+    ],
     "checkver": {
         "github": "https://github.com/SteamTools-Team/SteamTools/"
     },
