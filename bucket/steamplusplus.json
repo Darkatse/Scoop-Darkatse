@@ -1,10 +1,10 @@
 {
-    "homepage": "https://github.com/rmbadmin/SteamTools",
+    "homepage": "https://github.com/SteamTools-Team/SteamTools/",
     "description": "Toolbox for steam",
-    "version": "1.1.4",
+    "version": "2.4.1",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/rmbadmin/SteamTools/releases/download/1.1.4/Steam++.v1.1.4.zip",
-    "hash": "6d3ae5dfe759fb6f067a3d7aea62e702da8513a1d2637ee1b1c968817e53009a",
+    "url": "https://github.com/SteamTools-Team/SteamTools/releases/download/2.4.1/Steam++_win_x64_v2.4.1.7z",
+    "hash": "SHA256:F585575E8C1466F09DD351A9F2A1E0D98669B38C8DF6BA0CF405E4E5E9863C12",
     "bin": "Steam++.exe",
     "shortcuts": [
         [
@@ -13,9 +13,9 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/rmbadmin/SteamTools/"
+        "github": "https://github.com/SteamTools-Team/SteamTools/"
     },
     "autoupdate": {
-        "url": "https://github.com/rmbadmin/SteamTools/releases/download/$version/Steam++.v$version.zip"
+        "url": "https://github.com/SteamTools-Team/SteamTools/releases/download/$version/Steam++_win_x64_v$version.7z"
     }
 }
