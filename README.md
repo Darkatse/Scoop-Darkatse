@@ -12,7 +12,7 @@ Feature Apps
 
 | Manifest | Description |
 |----------|-------------|
-| Auto Dark Mode | Automatically switches dark/light theme of Win10 |
+| Shanaencoder | An Useful audio/video encoding program |
 | Netch | Game accelerator |
 | memtest | A RAM tester that runs under Windows |
 | RevokeMsgPatcher | Revoke Message Patcher for QQ/TIM/WeChat |
