@@ -1,9 +1,9 @@
 {
-    "version": "7.21.2",
+    "version": "7.22.1",
     "homepage": "https://termius.com/",
     "description": "A cross-platform SSH client",
     "url": "https://autoupdate.termius.com/windows/Termius.exe#/dl.7z",
-    "hash": "4ce306b4b52cc7d320a8da57b8d51fef0bc9545eb2f33ac392ae77c7f02ed952",
+    "hash": "161b560b43a8f496018ebea003d2b65eb0598adc67733ca0ea035c0fe0154d9f",
     "architecture": {
         "64bit": {
             "installer": {
