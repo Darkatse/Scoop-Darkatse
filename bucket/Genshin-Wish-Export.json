@@ -1,10 +1,10 @@
 {
-    "version": "0.6.12",
+    "version": "0.7.0",
     "description": "Genshin Impact Wish History Exporter",
     "homepage": "https://github.com/biuuu/genshin-wish-export",
     "license": "MIT",
-    "url": "https://github.com/biuuu/genshin-wish-export/releases/download/v0.6.12/Genshin-Wish-Export.zip",
-    "hash": "B7E0F0530D0953FCC48FBA96C6128CF09663D28CD092F53AEC4FEFC1352E2674",
+    "url": "https://github.com/biuuu/genshin-wish-export/releases/download/v0.7.0/Genshin-Wish-Export.zip",
+    "hash": "79f5ff8384715ba259e1e8b9418aed04f8a9b7c3c1d8a4a42396ff7a9b1c1d51",
     "bin": "Genshin Wish Export.exe",
     "shortcuts": [
         [
@@ -12,9 +12,7 @@
             "Genshin Wish Export"
         ]
     ],
-    "persist": [
-        "userData"
-    ],
+    "persist": "userData",
     "checkver": {
         "github": "https://github.com/biuuu/genshin-wish-export"
     },
