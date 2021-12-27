@@ -8,6 +8,9 @@
     "suggest": {
         "dotnet-desktop-runtime": "dorado/dotnet-desktop-runtime"
     },
+    "pre_install": [
+        "New-Item -ItemType file -Path \"$dir\\accounts.json\", \"$dir\\cookie.dat\", \"$dir\\cookielist.dat\", \"$dir\\settings.json\""
+    ],
     "bin": "DGP.Genshin.exe",
     "shortcuts": [
         [
