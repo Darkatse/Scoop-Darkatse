@@ -26,7 +26,8 @@
         "cookie.dat",
         "cookielist.dat",
         "settings.json",
-        "GachaStatistic"
+        "GachaStatistic",
+        "Plugins"
     ],
     "checkver": "github",
     "autoupdate": {
