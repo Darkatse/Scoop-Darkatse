@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/DawnFz/GenShin-LauncherDIY",
     "description": "Enhanced Edition for GenshinImpact Launcher",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "license": "Freeware",
-    "url": "https://github.com/DawnFz/GenShin-LauncherDIY/releases/download/1.2.0/GenShin-Launcher.v1.2.0.exe",
-    "hash": "1f53caea25ae1fb3ad0c18d255609dd0796bf6f3ce32877d369e7480ba4a3e50",
+    "url": "https://github.com/DawnFz/GenShin-LauncherDIY/releases/download/1.2.1/GenShin-Launcher.v1.2.1.exe",
+    "hash": "192f07f237b62218be018ba3e49bd7ae14e7ce4810b1aa5c13ca50b37ecd6397",
     "pre_install": "Rename-Item \"$dir\\GenShin-Launcher.v$version.exe\" \"GenShin-Launcher.exe\"",
     "bin": "GenShin-Launcher.exe",
     "shortcuts": [
