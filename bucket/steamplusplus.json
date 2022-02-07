@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/SteamTools-Team/SteamTools/",
     "description": "Toolbox for steam",
-    "version": "2.6.4",
+    "version": "2.6.5",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/SteamTools-Team/SteamTools/releases/download/2.6.4/Steam++_win_x64_v2.6.4.7z",
-    "hash": "a76694636920aabbbc7d73b4dae15279d9feffa6e15e9d37470545cbac996347",
+    "url": "https://github.com/SteamTools-Team/SteamTools/releases/download/2.6.5/Steam++_win_x64_v2.6.5.7z",
+    "hash": "56476eb017361f3c73887f691c675e8a3754f3bc7133b18ee7811208e3882176",
     "bin": "Steam++.exe",
     "shortcuts": [
         [
