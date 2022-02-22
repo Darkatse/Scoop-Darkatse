@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/DGP-Studio/Snap.Genshin",
     "description": "Powerful Toolbox for GenshinImpact using C#",
-    "version": "2022.2.21.41",
+    "version": "2022.2.22.2",
     "license": "MIT",
-    "url": "https://github.com/DGP-Studio/Snap.Genshin/releases/download/2022.2.21.41/Publish.zip",
-    "hash": "5048699ebd92dd24983287b5bc9bda3f2b952a8f1880d38a5ddbb53cab3280bb",
+    "url": "https://github.com/DGP-Studio/Snap.Genshin/releases/download/2022.2.22.2/Publish.zip",
+    "hash": "00b38669cac42ffb008654f95ae7abf8fb666a84b339de7abe7bda5aaa3176d0",
     "suggest": {
         "dotnet-desktop-runtime": "dorado/dotnet-desktop-runtime"
     },
