@@ -7,7 +7,7 @@
     "bin": "ToastFish.exe",
     "pre_install": [
         "Move-Item -Path \"$dir\\ToastFish*\\*\" -Destination \"$dir\"",
-        "Remove-Item \"$dir\\ToastFish*\" -Force -Recurse"
+        "Remove-Item \"$dir\\ToastFish v*\" -Force -Recurse"
     ],
     "shortcuts": [
         [
