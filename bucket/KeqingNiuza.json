@@ -9,10 +9,10 @@
         "Move-Item -Path \"$dir\\KeqingNiuza\\*\" -Destination \"$dir\"",
         "Remove-Item \"$dir\\KeqingNiuza\" -Force -Recurse"
     ],
-    "bin": "KeqingNiuza Launcher.exe",
+    "bin": "KeqingNiuza.Final.exe",
     "shortcuts": [
         [
-            "KeqingNiuza Launcher.exe",
+            "KeqingNiuza.Final.exe",
             "刻记牛杂店"
         ]
     ],
