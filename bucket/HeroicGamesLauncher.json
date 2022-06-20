@@ -29,7 +29,9 @@
             "Heroic"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher"
+    },
     "autoupdate": {
         "url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v$version/Heroic-$version.exe#/dl.7z"
     }
