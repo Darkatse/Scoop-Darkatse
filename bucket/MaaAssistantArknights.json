@@ -1,10 +1,10 @@
 {
-    "version": "4.2.0",
+    "version": "4.2.1",
     "description": "An Arknights assistant, supports ZH and EN client",
     "homepage": "https://www.maa.plus/",
     "license": "AGPL-3.0",
-    "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v4.2.0/MaaBundle-v4.2.0.zip",
-    "hash": "35515775296b81cf21aa2561af38ecd72dd26be77121bd2db18c1ef1718c44cc",
+    "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v4.2.1/MaaBundle-v4.2.1.zip",
+    "hash": "a39c430346aa802bb894f648367d1a8838b4ea8ac1b57701998f71ecdde7a355",
     "pre_install": [
         "if (!(Test-Path -Path \"$dir\\gui.json\" -PathType leaf)) {",
         "   New-Item -ItemType file -Path \"$dir\\gui.json\" | Out-Null",
