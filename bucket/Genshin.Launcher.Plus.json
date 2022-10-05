@@ -17,10 +17,10 @@
         "Config"
     ],
     "checkver": {
-        "url": "https://github.com/DawnFz/GenShin-LauncherDIY/releases",
+        "url": "https://github.com/DawnFz/Genshin.Launcher.Plus/releases",
         "re": "Genshin.Launcher.Plus.([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/DawnFz/GenShin-LauncherDIY/releases/download/$version/GenShin.Launcher.Plus.exe"
+        "url": "https://github.com/DawnFz/Genshin.Launcher.Plus/releases/download/$version/GenShin.Launcher.Plus.exe"
     }
 }
