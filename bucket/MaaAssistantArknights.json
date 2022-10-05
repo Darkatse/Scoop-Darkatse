@@ -22,8 +22,8 @@
         "gui.json"
     ],
     "checkver": {
-        "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/",
-        "regex": "v([\\d.]+)(-alpha|-beta)?(\\.\\d+)?"
+        "url": "https://api.github.com/repos/MaaAssistantArknights/MaaAssistantArknights/releases/",
+        "regex": "/releases/tag/v([\\d.]+)(-alpha|-beta)?(\\.\\d+)?"
     },
     "autoupdate": {
         "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v$version/MaaBundle-v$version.zip"
