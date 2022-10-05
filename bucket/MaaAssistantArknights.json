@@ -22,7 +22,7 @@
         "gui.json"
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/MaaAssistantArknights/MaaAssistantArknights/releases/",
+        "url": "https://api.github.com/repos/MaaAssistantArknights/MaaAssistantArknights/releases",
         "regex": "/releases/tag/v([\\d.]+)(-alpha|-beta)?(\\.\\d+)?"
     },
     "autoupdate": {
