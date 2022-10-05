@@ -3,7 +3,7 @@
     "description": "A gacha statistics tool for Genshin Impact",
     "homepage": "https://github.com/Scighost/KeqingNiuza",
     "license": "MIT",
-    "url": "https://github.com/Scighost/KeqingNiuza/releases/download/v2.3.0/KeqingNiuza.zip",
+    "url": "https://github.com/Scighost/KeqingNiuza/releases/download/v2.3.2/KeqingNiuza.zip",
     "hash": "093E46F21DDE50FC6F09ACA70D4FBBA7EA7372F5BB106BE1B93C833B05A8B525",
     "pre_install": [
         "Move-Item -Path \"$dir\\KeqingNiuza\\*\" -Destination \"$dir\"",
@@ -25,6 +25,6 @@
         "github": "https://github.com/Scighost/KeqingNiuza"
     },
     "autoupdate": {
-        "url": "https://github.com/Scighost/KeqingNiuza/releases/download/v$version/KeqingNiuza_$version.zip"
+        "url": "https://github.com/Scighost/KeqingNiuza/releases/download/v$version/KeqingNiuza.zip"
     }
 }
