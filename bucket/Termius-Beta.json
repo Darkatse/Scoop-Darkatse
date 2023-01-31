@@ -29,8 +29,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://termius.com/beta-program",
-        "regex": "V ([\\d\\.]+)"
+        "url": "https://autoupdate.termius.com/windows-beta/latest.yml",
+        "regex": "version:\\s*([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://autoupdate.termius.com/windows-beta/Termius%20Beta.exe#/dl.7z"
