@@ -6,13 +6,16 @@
     "url": "https://github.com/Bin-Huang/chatbox/releases/download/Chatbox-v0.4.0/chatbox_0.4.0_x64_en-US.msi",
     "hash": "15BCB660FF965987CB6047FC0BC99A598A622B47EF9CC7AE0E29A4781E4E3C77",
     "bin": "chatbox.exe",
+    "pre_install": [
+        "Move-Item -Path \"$dir\\PFiles\\chatbox\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\PFiles\" -Force -Recurse"
+    ],
     "shortcuts": [
         [
             "chatbox.exe",
             "ChatBox"
         ]
     ],
-    "innosetup": true,
     "checkver": {
         "github": "https://api.github.com/repos/Bin-Huang/chatbox"
     },
