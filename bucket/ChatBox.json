@@ -17,7 +17,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://api.github.com/repos/Bin-Huang/chatbox"
+        "github": "https://github.com/Bin-Huang/chatbox"
     },
     "autoupdate": {
         "url": "https://github.com/Bin-Huang/chatbox/releases/download/Chatbox-v$version/chatbox_$version_x64_en-US.msi"
