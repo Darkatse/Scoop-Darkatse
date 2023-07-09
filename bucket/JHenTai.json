@@ -1,0 +1,21 @@
+{
+    "version": "7.3.3+136",
+    "description": "An E-Hentai app for Android & iOS & Windows & MacOS & Linux.",
+    "homepage": "https://github.com/jiangtian616/JHenTai",
+    "license": "Apache-2.0",
+    "url": "https://github.com/jiangtian616/JHenTai/releases/download/v7.3.3%2B136/JHenTai_7.3.3+136_Windows.zip",
+    "hash": "294FAA55D9640920D21B942A536CD0995DBBEB5DEF82081249290C88DB6F74CE",
+    "bin": "jhentai.exe",
+    "shortcuts": [
+        [
+            "jhentai.exe",
+            "JHenTai"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/jiangtian616/JHenTai"
+    },
+    "autoupdate": {
+        "url": "https://github.com/jiangtian616/JHenTai/releases/download/v$version/JHenTai_$version_Windows.zip"
+    }
+}
