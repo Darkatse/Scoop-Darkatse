@@ -1,18 +1,18 @@
 {
     "homepage": "https://github.com/Bin-Huang/chatbox",
     "description": "a cross-platform desktop client for OpenAI API, also a prompt debugging and management tool.",
-    "version": "0.4.0",
-    "license": "NO LICENSE",
-    "url": "https://github.com/Bin-Huang/chatbox/releases/download/Chatbox-v0.4.0/chatbox_0.4.0_x64_en-US.msi",
-    "hash": "15BCB660FF965987CB6047FC0BC99A598A622B47EF9CC7AE0E29A4781E4E3C77",
-    "bin": "chatbox.exe",
+    "version": "1.0.0",
+    "license": "GPL-3.0",
+    "url": "https://github.com/Bin-Huang/chatbox/releases/download/v1.0.0/Chatbox-1.0.0-Setup.exe#/dl.7z",
+    "hash": "C1DADB2A688E5D71ED339FE73C3AB453D5D21676786EE94A6EFB410B13CB4E2E",
+    "bin": "Chatbox.exe",
     "pre_install": [
-        "Move-Item -Path \"$dir\\PFiles\\chatbox\\*\" -Destination \"$dir\"",
-        "Remove-Item \"$dir\\PFiles\" -Force -Recurse"
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
     ],
     "shortcuts": [
         [
-            "chatbox.exe",
+            "Chatbox.exe",
             "ChatBox"
         ]
     ],
@@ -20,6 +20,6 @@
         "github": "https://github.com/Bin-Huang/chatbox"
     },
     "autoupdate": {
-        "url": "https://github.com/Bin-Huang/chatbox/releases/download/Chatbox-v$version/chatbox_$version_x64_en-US.msi"
+        "url": "https://github.com/Bin-Huang/chatbox/releases/download/v$version/Chatbox-v$version-Setup.exe#/dl.7z"
     }
 }

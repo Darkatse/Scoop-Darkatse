@@ -17,7 +17,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/jiangtian616/JHenTai"
+        "url": "https://github.com/jiangtian616/JHenTai/releases/latest",
+        "regex": "v(\\d+\\.\\d+\\.\\d+\\+\\d+)"
     },
     "autoupdate": {
         "url": "https://github.com/jiangtian616/JHenTai/releases/download/v$version/JHenTai_$version_Windows.zip"
