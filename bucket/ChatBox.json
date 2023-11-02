@@ -20,6 +20,6 @@
         "github": "https://github.com/Bin-Huang/chatbox"
     },
     "autoupdate": {
-        "url": "https://github.com/Bin-Huang/chatbox/releases/download/v$version/Chatbox-v$version-Setup.exe#/dl.7z"
+        "url": "https://github.com/Bin-Huang/chatbox/releases/download/v$version/Chatbox-$version-Setup.exe#/dl.7z"
     }
 }
