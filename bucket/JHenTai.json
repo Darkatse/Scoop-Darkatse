@@ -1,10 +1,10 @@
 {
-    "version": "7.4.7+146",
+    "version": "7.4.9+148",
     "description": "An E-Hentai app for Android & iOS & Windows & MacOS & Linux.",
     "homepage": "https://github.com/jiangtian616/JHenTai",
     "license": "Apache-2.0",
-    "url": "https://github.com/jiangtian616/JHenTai/releases/download/v7.4.7+146/JHenTai_7.4.7+146_Windows.zip",
-    "hash": "87cc8fe095f59c9239714bc7268b7a0c9ef49913c2f21f70b83ecd667fd1347f",
+    "url": "https://github.com/jiangtian616/JHenTai/releases/download/v7.4.9+148/JHenTai_7.4.9+148_Windows.zip",
+    "hash": "5a8023a27f921ab300f9616721abbdb20a3d8d69d360c6c9ad24b5cd32a77350",
     "bin": "jhentai.exe",
     "pre_install": [
         "Move-Item -Path \"$dir\\JHenTai_*\\*\" -Destination \"$dir\"",
