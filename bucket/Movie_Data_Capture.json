@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/yoshiko2/Movie_Data_Capture",
     "description": "Movie Metadata Crawler | Scraper",
-    "version": "7.1.6",
+    "version": "7.1.8",
     "license": "GNU General Public License v3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yoshiko2/Movie_Data_Capture/releases/download/7.1.6/MDC-7.1.6-Windows-x86_64.zip",
-            "hash": "4584237889c9ab97f12c478afb756b5795cc1b6184428225442f5c954bf8598f"
+            "url": "https://github.com/yoshiko2/Movie_Data_Capture/releases/download/7.1.8/MDC-7.1.8-Windows-x86_64.zip",
+            "hash": "ee7fbf7761c8522432e8a21a5fcb6754b274e069fd94b501b2fe3531e504740b"
         }
     },
     "bin": "MDC.exe",
