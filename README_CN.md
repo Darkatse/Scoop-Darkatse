@@ -34,7 +34,11 @@
 
 *或者用短命令*  
 
-    iwr -useb get.scoop.sh | iex
+    irm get.scoop.sh | iex
+    
+可以使用代理来加速连接
+
+    irm get.scoop.sh -Proxy 'http://<ip:port>' | iex
 
 安装后请输入 `scoop help` 来查看指南。
 
@@ -43,7 +47,9 @@
 =====
 
 简单的在 Power Shell 输入  
-    `scoop bucket add Darkatse https://github.com/Darkatse/Scoop-Darkatse.git`  
+
+    scoop bucket add Darkatse https://github.com/Darkatse/Scoop-Darkatse.git
+    
 即可
     
 查看是否成功：
