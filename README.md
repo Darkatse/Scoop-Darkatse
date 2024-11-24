@@ -40,7 +40,11 @@ To install scoop (run in powershell console):
 
 *or shorter*  
 
-    iwr -useb get.scoop.sh | iex
+    irm get.scoop.sh | iex
+    
+You can use proxies if you have network trouble in accessing GitHub, e.g.
+
+    irm get.scoop.sh -Proxy 'http://<ip:port>' | iex
 
 Once installed, run `scoop help` for instructions.
 
@@ -49,7 +53,8 @@ How to add this bucket
 =====
 
 To make it easy to install apps from this bucket, run  
-    `scoop bucket add Darkatse https://github.com/Darkatse/Scoop-Darkatse.git`
+
+    scoop bucket add Darkatse https://github.com/Darkatse/Scoop-Darkatse.git
     
 Check that it works:
 
