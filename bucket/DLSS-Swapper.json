@@ -14,7 +14,8 @@
     ],
     "persist": "StoredData",
     "checkver": {
-        "github": "https://github.com/beeradmoore/dlss-swapper"
+        "url": "https://api.github.com/repos/beeradmoore/dlss-swapper/releases",
+        "regex": "/releases/tag/v([\\d.]+(-alpha|-beta|-rc)?(\\.\\d+)?)"
     },
     "autoupdate": {
         "url": "https://github.com/beeradmoore/dlss-swapper/releases/download/v$version/DLSS.Swapper-$version-portable.zip"
