@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/clamchowder/MicrobenchmarksGui",
     "description": "currently cache and memory benchmark",
-    "version": "08bbe54",
+    "version": "08",
     "license": "None",
     "url": "https://github.com/clamchowder/MicrobenchmarksGui/releases/download/08bbe54/MicrobenchmarkGui-08bbe54.zip",
-    "hash": "03A385347F0E45DB29FF989A7B7E478F687E3FDED70A184104B999932D775B8D",
+    "hash": "03a385347f0e45db29ff989a7b7e478f687e3fded70a184104b999932d775b8d",
     "bin": "MicrobenchmarkGui.exe",
     "shortcuts": [
         [
