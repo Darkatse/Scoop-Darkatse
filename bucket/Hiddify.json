@@ -1,10 +1,10 @@
 {
-    "version": "4.0.4",
+    "version": "4.1.0",
     "description": "Multi-platform auto-proxy client, open-source, secure and ad-free.",
     "homepage": "https://github.com/hiddify/hiddify-app",
     "license": "https://github.com/hiddify/hiddify-app/blob/main/LICENSE.md",
-    "url": "https://github.com/hiddify/hiddify-app/releases/download/v4.0.4/Hiddify-Windows-Portable-x64.zip",
-    "hash": "1caecfcc2fec8885eed43dcf55c845b10e3221368413bf78e9df4d980d5bf02c",
+    "url": "https://github.com/hiddify/hiddify-app/releases/download/v4.1.0/Hiddify-Windows-Portable-x64.zip",
+    "hash": "3b8014cb50300a5e6de7db5e82811321e921a21abb55183838a7368880ce5663",
     "bin": "Hiddify.exe",
     "installer": {
         "script": [
