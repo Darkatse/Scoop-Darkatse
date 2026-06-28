@@ -12,7 +12,7 @@ Feature Apps
 
 | Manifest | Description |
 |----------|-------------|
-| Shanaencoder | An Useful audio/video encoding program |
+| ShanaEncoderCN | A Chinese-localized ShanaEncoder build |
 | Netch | Game accelerator |
 | memtest | A RAM tester that runs under Windows |
 | RevokeMsgPatcher | Revoke Message Patcher for QQ/TIM/WeChat |

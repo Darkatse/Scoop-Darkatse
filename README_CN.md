@@ -10,7 +10,7 @@
 
 | 名称 | 描述 |
 |----------|-------------|
-| Shanaencoder | 非常好用的音频/视频压制工具 |
+| ShanaEncoderCN | ShanaEncoder 中文版 |
 | Netch | 通用游戏加速器 |
 | memtest | win下的内存测试工具 |
 | RevokeMsgPatcher | QQ/TIM/WeChat 防撤回补丁 |
