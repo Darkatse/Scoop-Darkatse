@@ -1,0 +1,51 @@
+name: Excavator
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 */4 * * *'
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  excavate:
+    name: Excavate
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - name: Excavate
+        uses: ScoopInstaller/GithubActions@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_UPDATED: 1
+          THROW_ERROR: 1
+      - name: Report failure
+        if: failure() && github.event_name == 'schedule'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $title = 'Excavator failed'
+          $runUrl = "$env:GITHUB_SERVER_URL/$env:GITHUB_REPOSITORY/actions/runs/$env:GITHUB_RUN_ID"
+          $body = @"
+          Scheduled Excavator failed.
+
+          Run: $runUrl
+          Commit: $env:GITHUB_SHA
+
+          Close this issue after fixing the manifest/checkver/autoupdate problem.
+          "@
+
+          $issue = gh issue list --repo $env:GITHUB_REPOSITORY --state open --json number,title --limit 100 |
+            ConvertFrom-Json |
+            Where-Object { $_.title -eq $title } |
+            Select-Object -First 1
+
+          if ($issue) {
+            gh issue comment $issue.number --repo $env:GITHUB_REPOSITORY --body $body
+          } else {
+            gh issue create --repo $env:GITHUB_REPOSITORY --title $title --body $body --label manifest-fix-needed --label "help wanted"
+          }
