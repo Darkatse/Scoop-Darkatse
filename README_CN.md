@@ -15,6 +15,7 @@
 | memtest | win下的内存测试工具 |
 | RevokeMsgPatcher | QQ/TIM/WeChat 防撤回补丁 |
 | Termius | 跨平台同步的SSH客户端 |
+| TauriTavern | 使用 Tauri 与 Rust 构建的 SillyTavern 原生客户端 |
 | YogaDNS | 强大的Windows DNS客户端 |
 
 

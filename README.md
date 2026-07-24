@@ -17,6 +17,7 @@ Feature Apps
 | memtest | A RAM tester that runs under Windows |
 | RevokeMsgPatcher | Revoke Message Patcher for QQ/TIM/WeChat |
 | Termius | A cross-platform SSH client |
+| TauriTavern | A native SillyTavern client built with Tauri and Rust |
 | YogaDNS | Advanced DNS Client for Windows |
 
 
