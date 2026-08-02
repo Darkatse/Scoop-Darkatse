@@ -23,17 +23,17 @@ jobs:
         shell: ${{ matrix.shell }}
     steps:
       - name: Checkout Bucket
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@v7
         with:
           fetch-depth: 2
           path: my_bucket
       - name: Checkout Scoop
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@v7
         with:
           repository: ScoopInstaller/Scoop
           path: scoop_core
       - name: Install and cache test dependencies
-        uses: potatoqualitee/psmodulecache@ee5e9494714abf56f6efbfa51527b2aec5c761b8 # v6.2.1
+        uses: potatoqualitee/psmodulecache@main
         with:
           modules-to-cache: BuildHelpers, Pester
           shell: ${{ matrix.shell }}
