@@ -15,8 +15,9 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/irusanov/ZenTimings/releases.atom",
-        "regex": "<title>v?([\\d.]+)</title>"
+        "url": "https://api.github.com/repos/irusanov/ZenTimings/releases",
+        "jsonpath": "$[?(@.prerelease == false)].name",
+        "regex": "(?i)\"v?([\\d.]+)(?![^\"]*(?:alpha|beta))"
     },
     "autoupdate": {
         "url": "https://github.com/irusanov/ZenTimings/releases/download/v$version/ZenTimings_v$version.zip",
